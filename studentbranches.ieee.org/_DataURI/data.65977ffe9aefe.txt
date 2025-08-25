@@ -1,0 +1,1 @@
+chrome-extension://igjbikakmdaeecjpgcdpihkbciggnjpo/images/sidebar_icon_hover.svg

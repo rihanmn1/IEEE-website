@@ -1,0 +1,126 @@
+.osano-cm-dialog {
+    background-color: #e6e7e7 !important;
+    color: #000 !important;
+    padding: 1.45em 2em
+}
+
+.osano-cm-dialog,
+.osano-cm-dialog p,
+.osano-cm-info {
+    font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+    font-size: 15px !important
+}
+
+.osano-cm-description {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important
+}
+
+.osano-cm-info-dialog-header {
+    color: #000 !important;
+    font-size: 19px !important;
+    font-weight: 400 !important
+}
+
+body .osano-cm-drawer-toggle .osano-cm-label {
+    color: #000 !important;
+    font-size: 17px !important;
+    font-weight: 400 !important
+}
+
+@media screen and (min-width:768px) {
+    .osano-cm-content {
+        padding-right: 40px
+    }
+}
+
+.osano-cm-accept.osano-cm-button--type_accept,
+.osano-cm-deny.osano-cm-button--type_deny,
+.osano-cm-view__button.osano-cm-button {
+    background-color: #00629b !important;
+    border: 1px solid #00629b;
+    border-radius: 25px;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    padding: 11px 12px
+}
+
+.osano-cm-accept.osano-cm-button--type_accept:active,
+.osano-cm-accept.osano-cm-button--type_accept:hover,
+.osano-cm-deby.osano-cm-button--type_deny:active,
+.osano-cm-deny.osano-cm-button--type_deny:hover,
+.osano-cm-view__button.osano-cm-button:active,
+.osano-cm-view__button.osano-cm-button:hover {
+    background-color: #fff !important;
+    color: #00629b !important
+}
+
+.osano-cm-button {
+    background-color: #00629b;
+    border: 1px solid #00629b;
+    border-radius: 25px;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    margin-bottom: .45em !important;
+    margin-top: .45em !important;
+    padding: 11px 12px
+}
+
+.osano-cm-buttons button:active,
+.osano-cm-buttons button:hover {
+    background-color: #fff;
+    color: #00629b !important
+}
+
+.osano-cm-link {
+    color: #00629b !important
+}
+
+.osano-cm-link:hover {
+    color: #002855 !important
+}
+
+.osano-cm-close {
+    color: #00629b !important;
+    display: flex;
+    stroke: #00629b
+}
+
+.osano-cm-close:focus,
+.osano-cm-close:hover {
+    background-color: #fff !important;
+    border-color: #fff;
+    color: #00629b !important;
+    stroke: #00629b;
+    outline: none !important
+}
+
+.osano-cm-dialog__close:focus:hover,
+.osano-cm-info-dialog-header__close:focus:hover {
+    stroke: #002855
+}
+
+.osano-cm-disclosure__toggle {
+    color: #000 !important;
+    font-weight: 400 !important
+}
+
+.osano-cm-disclosure__toggle:focus,
+.osano-cm-disclosure__toggle:hover {
+    color: #000 !important
+}
+
+.osano-cm-view p {
+    font-family: Open Sans, Helvetica, Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 25px !important;
+    margin-bottom: 15px !important
+}
+
+.osano-cm-powered-by {
+    display: none
+}

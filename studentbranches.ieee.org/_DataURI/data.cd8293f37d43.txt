@@ -1,0 +1,1 @@
+chrome-extension://igjbikakmdaeecjpgcdpihkbciggnjpo/scripts/lib/html2canvas.min.js

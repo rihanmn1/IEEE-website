@@ -1,0 +1,38 @@
+
+  /* Container for all profiles */
+  .profiles-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* spacing between cards */
+    padding: 20px;
+    flex-wrap: wrap; /* allows wrapping for smaller screens */
+  }
+  /* Individual profile card */
+  .profile {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Profile image styling */
+  .profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* circular images */
+  }
+  /* Name styling */
+  .name {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+  /* Title styling */
+  .title {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 4px;
+  }
